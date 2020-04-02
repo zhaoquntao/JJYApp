@@ -1,0 +1,32 @@
+platform :ios, ’10.0’
+use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+inhibit_all_warnings!
+
+
+target 'JJYApp' do
+  
+  
+pod 'MJRefresh'
+pod 'AFNetworking' ,'3.2.1'
+pod 'IQKeyboardManager'
+pod 'SDWebImage'
+pod 'MBProgressHUD'
+pod 'MJExtension'
+pod 'CYLTabBarController'
+pod 'Masonry'
+pod 'KMNavigationBarTransition'
+pod 'SDCycleScrollView','~> 1.75'
+pod 'ReactiveObjC'
+pod 'MZFormSheetPresentationController'
+pod 'Bugly'
+pod 'BlocksKit'
+pod 'YYCache'
+pod 'LBXScan/LBXNative','~> 2.3'
+pod 'LBXScan/UI','~> 2.3'
+pod 'DZNEmptyDataSet'
+
+end
